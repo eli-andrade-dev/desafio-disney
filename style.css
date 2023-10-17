@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1440px;
+    height: 13vh;
+    background-color: #1e1e1e;
+    
+}
+nav{
+    height: 30px;
+   
+
+}
+
+ul{
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+color: white;
+font-family: 'Style Script', cursive;
+font-size: 2rem;
+
+}
+
+li{
+    margin: 30px;
+
+}
+#disney{
+    
+  
+}
+
+.titulos1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.titulos1 img{
+    width: 20vw;
+}
+
+.titulos2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+
+.titulos2 img{
+    width: 20vw;
+   
+}
+
+footer{
+    height: 12vh;
+    width: 1440px;    display: flex;
+    background-color: black;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+@media screen and (min-width: 780px) {
+    .full-width-img {
+    margin: auto;
+    width: 90%;
+    }
