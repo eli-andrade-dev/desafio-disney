@@ -8,6 +8,7 @@ header{
     width: 1440px;
     height: 13vh;
     background-color: #1e1e1e;
+    width: 100%;
     
 }
 nav{
@@ -30,9 +31,8 @@ li{
     margin: 30px;
 
 }
-#disney{
-    
-  
+#disney img{
+    width: 100%;
 }
 
 .titulos1{
@@ -59,8 +59,9 @@ li{
 }
 
 footer{
-    height: 12vh;
-    width: 1440px;    display: flex;
+    height: 18vh;
+    width: 100%;    
+    display: flex;
     background-color: black;
     margin-top: 55px;
     display: flex;
